@@ -1,5 +1,7 @@
 header,
 footer {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   border: 2px solid black;
@@ -15,9 +17,10 @@ footer {
   flex: 1;
 }
 
-.sidebar {flex-wrap: wrap;
-  border: 2px solid black
-  flex: 1;
+.sidebar {
+  padding: 2rem;
+  flex-wrap: wrap;
+  border: 2px solid black;
 }
 
 .content {
