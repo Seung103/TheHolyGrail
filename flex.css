@@ -1,0 +1,10 @@
+h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-width: 10px;}    
+
+sidebar {display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    flex-wrap:wrap;}
