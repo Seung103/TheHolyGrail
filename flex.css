@@ -1,5 +1,22 @@
-header {
-  border: 1px solid;
-  justify-content: center;
+body {
   display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.content {
+  flex: 3;
+  border: 2px solid black;
+}
+
+header,
+footer {
+  border: 2px solid black;
+  text-align: center;
 }
