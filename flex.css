@@ -1,0 +1,29 @@
+header,
+footer {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.sidebar {
+  padding: 2rem;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.content {
+  flex: 3;
+  border: 2px solid black;
+}
