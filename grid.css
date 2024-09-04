@@ -1,6 +1,5 @@
-.container {
+body {
   display: grid;
-  padding: 1rem 3rem;
   height: 100vh;
   grid-template: auto 1fr auto / 1fr 3fr 1fr;
   border: 1px solid black;
@@ -12,11 +11,6 @@ footer {
   grid-column: 1 / -1;
   border: 1px solid black;
   text-align: center;
-}
-
-body {
-  display: grid;
-  border: 3px solid black;
 }
 
 .sidebar {
